@@ -1,0 +1,108 @@
+html,body{height:100vh;}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+  height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap:2px;
+}
+.sidebar{
+  display: grid;
+  grid-template-rows:1fr 4fr 3fr ;
+}
+.dash{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.dashImg{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+.dashImg img{
+  width: 50%;
+  height: auto;
+}
+.dashLogo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.dashLogo p{
+  font-size: 100%;
+}
+.container1{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+.container2{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+
+
+.content{
+  display: grid;
+  height: 100vh;
+ background-color: black;
+   grid-template-rows: 2fr 6fr;
+  
+}
+.header{
+
+  height: 100%;
+  background-color: aquamarine;
+  display:grid;
+  grid-template-rows: 1fr 1fr;
+ 
+}
+.searchBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+img{
+  height: 10%;
+  width: 10%;
+
+}
+.searchBox input{
+  width:40%;
+  border-radius: 5%;
+}
+.mainContent{
+ background-color: blue;
+ height: 100%;
+  
+}
+.introBox{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content:space-evenly;
+}
+.accountBox{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.buttonBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttonBox button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+}
