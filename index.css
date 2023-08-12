@@ -133,12 +133,7 @@ border-radius: 2rem;
   grid-template-rows: 20% 30% 35%;
  }
  
- .head{
- 
- }
- .desc{
- 
- }
+
  .option{
   display: flex;
   align-items: flex-end;
@@ -149,4 +144,32 @@ border-radius: 2rem;
   display: grid;
   grid-template-rows: 50% 50%;
 
+ }
+ .announcements{
+  display: grid;
+  margin: 5%;
+  background-color: aliceblue;
+  grid-template-rows: 1fr 1fr 1fr;
+ 
+ }
+ .announcements1{
+  padding: 5%;
+  display: grid;
+  grid-template-rows: 20% 80%;
+
+ }
+ .announcements1 ~div{
+  padding: 5%;
+  display: grid;
+  grid-template-rows: 20% 80%;
+  
+ }
+ .trending{
+  margin: 5%;
+  background-color: aliceblue;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+ }
+ .trending .heading{
+  display: flex;
  }
